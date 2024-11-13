@@ -4,6 +4,12 @@ const nextConfig: NextConfig = {
   /* config options here */
   images: {
     domains: ['cdn-icons-png.flaticon.com'],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
 },
 };
 
