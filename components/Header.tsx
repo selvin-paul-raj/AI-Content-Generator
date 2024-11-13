@@ -5,8 +5,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='p-5 shadow-sm border-b-2 flex justify-between iteams-center '>
-      <div className="flex gap-2 items-center p-2 border rounded-md max-w-lg">
+    <div className='p-5 shadow-sm border-b-2 flex justify-between iteams-center bg-white'>
+      <div className="flex gap-2 items-center p-2 border rounded-md max-w-lg bg-white">
         <Search className='text-primary'/>
         <input type="text" placeholder="Search..." className="outline-none bg-transparent text-primary" />
 

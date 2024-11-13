@@ -29,7 +29,7 @@ const path = usePathname();
 
 
   return (
-    <div className='h-screen shadow-md border py-5 '>
+    <div className='h-screen shadow-md border py-5 bg-white '>
       <Link href="/"className='flex   items-center gap-2 p-2 py-4'>
       <Image alt='logo' src="/logo.svg" width={50} height={50} className='rotate-180'/>
       <h1  className='text-xl font-bold'>SPR's AI Content</h1>
