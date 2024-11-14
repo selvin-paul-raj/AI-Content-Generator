@@ -23,7 +23,7 @@ const OutputSection = ({ aiOutput }: PROPS) => {
    if (editorRef.current) {
      const markdownContent = editorRef.current.getInstance().getMarkdown();
      navigator.clipboard.writeText(markdownContent);
-     console.log("Content copied:", markdownContent);
+    
    }
  };
 
@@ -41,7 +41,7 @@ const OutputSection = ({ aiOutput }: PROPS) => {
        height="600px"
        initialEditType="wysiwyg"
        onChange={() =>
-         console.log(editorRef.current?.getInstance().getMarkdown())
+         editorRef.current?.getInstance().getMarkdown()
        }
      />
    </div>

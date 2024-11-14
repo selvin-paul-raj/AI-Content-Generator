@@ -11,7 +11,7 @@ export default async function Page({ params }: PROPS) {
   // Await params if it’s a promise
   const { "template-slug": templateSlug = "" } = await params;
 
-  console.log("Route Params:", templateSlug); // For debugging purposes
+  // console.log("Route Params:", templateSlug); // For debugging purposes
 
   // Find the template based on the slug
   const selectedTemplate = Templates.find((t) => t.slug === templateSlug);
